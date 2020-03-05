@@ -1,0 +1,33 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "webpack develop",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-fukushima/app-nurie-react-webpack.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/dev-fukushima/app-nurie-react-webpack/issues"
+  },
+  "homepage": "https://github.com/dev-fukushima/app-nurie-react-webpack#readme"
+}
