@@ -10,7 +10,10 @@ module.exports = {
     path: outputPath
   },
   devServer: {
-    contentBase: path.resolve(__dirname, 'dist')
+    contentBase: path.resolve(__dirname, 'dist'),
+    host: '0.0.0.0',
+    open: true,
+    disableHostCheck: true
   },
   module: {
     rules: [
